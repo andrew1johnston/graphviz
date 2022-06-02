@@ -13,7 +13,7 @@
     {
       "id": "a1",
       "label": "Alarm 1",
-      "type": "alarms"
+      "type": "alarm"
     }
   ],
   "edges": [
@@ -25,11 +25,11 @@
       "target_id": "n2"
     },
     {
-      "id": "n2",
-      "label": "Node 2",
-      "type": "node",
-      "source_id": "n1",
-      "target_id": "n2"
+      "id": "e2",
+      "label": "edge n2-a1",
+      "type": "link",
+      "source_id": "n2",
+      "target_id": "a1"
     }
   ]
 }

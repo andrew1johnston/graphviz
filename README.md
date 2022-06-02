@@ -4,9 +4,13 @@
 
 A web UI demo to render a visualisation of a graph using React and d3.
 
+## Hosting
+
+The demo is currently hosted on [gitpod](https://3000-andrew1johnsto-graphviz-5svr1s5ymd5.ws-eu46.gitpod.io).
+
 ## Running the app
 
-To run the app you will need to follow the instructions in the order below.
+To run the app click the hosting link above, or if you prefer to build and run the source you will need to follow the instructions in the order below.
 
 ### Installing the development dependencies
 
