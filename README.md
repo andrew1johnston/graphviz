@@ -71,6 +71,6 @@ npm install
 
 ### Building & running the app
 
-`npm start`
+`npm run start`
 
 This should open a web browser and automatically navigate to the appropriate page.
