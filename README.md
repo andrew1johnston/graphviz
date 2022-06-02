@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Graph Visualisation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project description
 
-## Available Scripts
+A web UI demo to render a visualisation of a graph using React and d3.
 
-In the project directory, you can run:
+## Running the app
 
-### `npm start`
+To run the app you will need to follow the instructions in the order below.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installing the development dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before starting, you will need the following development environment dependencies:
 
-### `npm test`
+#### 1. [node.js](https://nodejs.org)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- node.js is a JavaScript runtime
+- to install it follow the instructions for your platform here https://nodejs.org/en/download/ - just pick the LTS version.
 
-### `npm run build`
+- You can check the installation is successful by running the following:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+node --version
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 2. git client
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- e.g. [Git for Windows](https://gitforwindows.org) if you have a Windows machine. Follow the link for instructions on how to download and install.
+- or the XCode Command Line developer tools should include git if you are on a Mac. Running `git` in a Terminal window should prompt you to download these.
 
-### `npm run eject`
+You may have to reboot after installing these tools.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Getting the code
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Again, from a command window run the following to pull the code onto your machine:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/andrew1johnston/graphviz.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installing the project dependencies
 
-## Learn More
+The project is dependent on the following 3rd party libraries
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. [React](https://reactjs.org)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- library for creating interactive UIs
 
-### Code Splitting
+2. [Create React App](https://create-react-app.dev)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- framework for developing React applications
 
-### Analyzing the Bundle Size
+3. [d3](https://d3js.org)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- library for drawing the graph itself
 
-### Making a Progressive Web App
+4. [Fontawesome](https://fontawesome.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- a library of icons
 
-### Advanced Configuration
+5. [Storybook](https://storybook.js.org)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- a tool to develop React components
 
-### Deployment
+To install all the required dependencies, run the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+cd app
+npm install
+```
 
-### `npm run build` fails to minify
+### Building & running the app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm start`
+
+This should open a web browser and automatically navigate to the appropriate page.
